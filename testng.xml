@@ -3,6 +3,10 @@
 
 <suite name="OrangeHRM Test Suite">
 
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener"/>
+    </listeners>
+
     <test name="Login Tests">
         <classes>
             <class name="tests.LoginTest"/>
